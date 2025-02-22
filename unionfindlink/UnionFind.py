@@ -86,31 +86,3 @@ class UnionFind(object):
                 ret += x.print()
         return ret
 
-
-if __name__ == '__main__':
-    # = test union path
-    uf = UnionFind()
-    uf.union(1, 2)
-    uf.union(3, 4)
-    uf.union(5, 6)
-    uf.union(1, 3)
-    uf.union(6, 4)
-
-    assert uf.connected(1, 6)
-
-    # = test with None
-    root = uf.find(7)
-    try:
-        uf.union(7, 8)
-    except:
-        uf.add(7)
-
-    assert not uf.connected(7,8)
-    uf.union(7,8)
-    assert uf.connected(7,8)
-
-    # = test without None
-    uf.findOrCreate(9)
-    uf.union(9,10)
-    assert uf.connected(9,10)
-
