@@ -1,5 +1,5 @@
 import unittest
-from unionfindlink import UnionFind
+from unionfind_link import UnionFind
 
 class TestCore(unittest.TestCase):
     def test_simple(self):
