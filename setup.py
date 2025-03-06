@@ -13,7 +13,7 @@ setup(
     version="1.0.0",
     packages=find_packages(),
     install_requires=[],
-    description="simple UnionFind model with test on element is inside.\n How to use, see jupyter book clustering.ipynb in https://github.com/BastiYourDeveloper/clustering-closest-pairs ",
+    description="simple UnionFind model with test on element is inside. How to use, see jupyter book in https://github.com/BastiYourDeveloper/clustering-closest-pairs ",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Basti.YourDeveloper",
