@@ -41,3 +41,11 @@ Basti
     assert uf.connected(9,10)
 
 ```
+
+## Example Application
+
+A realy good application for unionfind structures is clustering with closest-pairs.
+See: https://github.com/BastiYourDeveloper/clustering-closest-pairs 
+
+*Enjoy the UnionFind structure with methods like findOrCreate() and find().*
+Method find() can be used to test if element is already in UnionFind structure, and returns None if not.
